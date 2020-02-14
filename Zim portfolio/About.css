@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("light-blue.jpg");
+    }
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+} */
+
+.link{
+    height: 20px;
+    padding: 20px;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+
+
+
+/* .link{
+    float: right;
+    width: 800px;
+    background-color: none;
+    padding-bottom: 50px;
+    border: 2px solid white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+} */
+
+.navbar{
+    float: right;
+    text-decoration: black;
+    font-size: larger;
+    text-align: right;
+    padding-top: 100px;
+    padding-left: 800px;
+    
+}
+
+a:hover {
+    background-color: grey;
+  }
+
+  .edu-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 200px;
+    font-size: large;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+
+  }
+
+  .Ski-pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 100px;
+    font-size: large;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+
+  }
+
+.education{
+font-style: italic;
+color: rebeccapurple;
+font-weight: bold;
+font-size: large;
+justify-content: space-between;
+transition-duration: 1000ms;
+transition-property: all;
+transform: (45deg);
+}
+
+.Skills{
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    justify-content: space-between;
+    padding-left: 100px;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+    
+}
+
+.experience{
+    font-style: italic;
+    color: palevioletred;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: large;
+    margin-top: 1px;
+    float: right;
+    justify-content: space-between;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+}
+
+.Proffessional-goals{
+    font-style: italic;
+    color: rgb(49, 233, 233);
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    justify-content: space-between;
+    padding-right: 100px;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+}
+
+.interests{
+    font-style: italic;
+    color: rgb(160, 69, 69);
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    padding-top: 30px;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transform: (45deg);
+
+}
+
+.social-media-icons{
+    padding-left: 400px;
+    padding-top: 300px;
+    word-spacing: 60px;
+    padding-left: 100px;
+
+}

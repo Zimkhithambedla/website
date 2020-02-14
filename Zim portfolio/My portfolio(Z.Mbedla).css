@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    background-image: url("light-blue.jpg");
+    }
+    
+.navbar{
+    float: right;
+    text-decoration: black;
+    font-size: larger;
+    text-align: right;
+    padding-top: 100px;
+    padding-left: 600px;
+    
+}
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+} */
+
+.link{
+    height: 20px;
+    padding: 20px;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* 
+.link{
+    width: 800px;
+    background-color: none;
+    padding-bottom: 50px;
+    border: 0px solid white;
+    float: right;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    word-spacing: 100px;
+    text-align: center;
+    
+} */
+
+.nav-bar{
+    float: right;
+    text-decoration: black;
+    font-size: larger;
+    text-align: right;
+    overflow: hidden;
+    padding-top: 300px;
+    padding-left: 1000px;
+    
+}
+
+a:hover {
+    background-color: grey;
+  }
+
+  .profile-picture{
+    height: 10px;
+    width: 10px;
+    margin-right: 200px;
+    padding-top: 100px;
+    padding-left: 200px;
+  }
+
+  .name{
+      text-align: center;
+      font-size: xx-large;
+      color: rgb(1, 58, 58);
+      font-style: oblique;
+      padding-top: 400px;
+      padding-right: 600px;
+
+  }
+
+  .social-media-icons{
+    padding-left: 400px;
+    padding-top: 300px;
+    word-spacing: 60px;
+    align-items: right;
+
+}
+
+.quote{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 700px;
+    padding-left: 0px;
+}
